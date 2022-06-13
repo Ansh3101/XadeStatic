@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import "~mdb-ui-kit/css/mdb.min.css";
 
 @font-face {
   font-family: "Lemon/Milk light Regular";
@@ -413,12 +414,14 @@ hr.line {
 .left {
   width: 33vw;
   margin-top: -13%;
+  height: 100%;
   margin-left: -55%;
 }
 
 .right {
   width: 33vw;
   margin-top: -65%;
+  height: 100%;
   margin-left: 95%;
 }
 /*  background: linear-gradient(90deg, rgb(255, 183, 83) 0%, rgb(255, 173, 175) 85%, rgba(217, 141, 156, 0.7) 100%) 100% center / cover, url(https://cdn.robinhood.com/assets/generated_assets/brand/_next/static/images/noise__d63eaf5….svg) rgb(240, 170, 165);
@@ -837,14 +840,10 @@ hr.line {
 }
 
 .whatxade-head {
-  margin-left: 7%;
+  margin-left: 15%;
   padding-top: 5%;
-  font-size: 2vw;
+  font-size: 3vw;
   color: #fff;
-}
-
-.whyxade {
-  margin-left: 35%;
 }
 
 .meetxade {
@@ -861,7 +860,7 @@ hr.line {
 .meetxade-head {
   text-align: center;
   padding-top: 3%;
-  font-size: 2vw;
+  font-size: 3vw;
   color: #fff;
 }
 
@@ -902,4 +901,86 @@ hr.line {
   margin-top: 8%;
   margin-bottom: 2%;
   font-size: 2vw;
+}
+
+.tldr {
+  width: 90%;
+  margin-left: 5%;
+  font-size: 1.8vw;
+  text-align: center;
+  color: #fff;
+}
+
+.read {
+  margin-left: 37%;
+  font-family: "RadioGrotesk Regular";
+  color: #fff;
+  font-size: 1.5vw;
+}
+
+nav {
+  display: none;
+}
+
+.responselogo {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  * {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  .navbar {
+    display: none;
+    overflow-x: hidden;
+  }
+
+  .logo1 {
+    font-family: "Lemon/Milk light Regular", BlinkMacSystemFont;
+    color: #fff;
+    padding-left: 2vw;
+    font-size: 3vw;
+    margin-top: 10px;
+  }
+
+  nav {
+    display: block;
+    float: right;
+    background-color: #000;
+    width: 100%;
+    height: 70vh;
+  }
+
+  nav ul {
+    float: right;
+    margin-left: -50%;
+  }
+
+  nav ul li a {
+    color: #fff;
+  }
+
+  .responselogo {
+    display: block;
+  }
+
+  .webapp1 {
+    margin-top: 3vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-top: 0.2vw;
+    padding-bottom: 0.2vw;
+    border-radius: 30px;
+    border: 3px solid #333;
+    background-color: #333;
+    text-align: right;
+    text-decoration: none;
+    font-size: 1.4vw;
+    color: #fff;
+    font-family: "Josefin Sans";
+    font-weight: 500;
+  }
 }
