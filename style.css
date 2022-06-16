@@ -961,6 +961,7 @@ nav {
   * {
     clear: both;
     overflow-wrap: hidden;
+    overflow-x: hidden;
   }
 
   .landing {
