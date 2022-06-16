@@ -926,61 +926,542 @@ nav {
   display: none;
 }
 
-@media (max-width: 767px) {
+.webapp1 {
+  display: none;
+}
+
+.learn2 {
+  display: none;
+}
+
+.single-body1 {
+  display: none;
+}
+
+.loan-body1 {
+  display: none;
+}
+
+.tools-body1 {
+  display: none;
+}
+
+.mobile {
+  display: none;
+}
+
+.explore1 {
+  display: none;
+}
+
+.mobile1 {
+  display: none;
+}
+
+@media (max-width: 768px) {
   * {
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .landing {
+    height: 90vh;
+  }
+
+  .header {
+    width: 150%;
+    height: 100%;
+    margin-left: 0;
+    overflow-x: hidden;
+  }
+
+  .header h1 {
+    margin: 0;
+    margin-top: 5%;
+    text-align: left;
+    font-size: 16.5vw;
+  }
+
+  .rw-words-1 span {
+    font-size: 25vw;
+    margin-top: -5%;
+    margin-left: -20%;
+  }
+
+  .rw-words-1 span:nth-child(2) {
+    margin-left: -15%;
+  }
+
+  .rw-words-1 span:nth-child(4) {
+    margin-left: -37%;
+  }
+
+  .rw-words-1 span:nth-child(5) {
+    margin-left: -40%;
+  }
+
+  .rw-words-1 span:nth-child(6) {
+    margin-left: -25%;
   }
 
   .navbar {
     display: none;
-    overflow-x: hidden;
-  }
-
-  .logo1 {
-    font-family: "Lemon/Milk light Regular", BlinkMacSystemFont;
-    color: #fff;
-    padding-left: 2vw;
-    font-size: 3vw;
-    margin-top: 10px;
-  }
-
-  nav {
-    display: block;
-    float: right;
-    background-color: #000;
-    width: 100%;
-    height: 70vh;
-  }
-
-  nav ul {
-    float: right;
-    margin-left: -50%;
-  }
-
-  nav ul li a {
-    color: #fff;
   }
 
   .responselogo {
-    display: block;
+    display: inline-block;
+    font-family: "Lemon/Milk light Regular", BlinkMacSystemFont;
+    color: #000;
+    padding-left: 2vw;
+    font-size: 2.5rem;
+    margin-top: 10px;
+  }
+
+  .left,
+  .right {
+    display: none;
+  }
+
+  .subtext {
+    margin-top: 25%;
+    margin-left: -32%;
+    font-size: 5vw;
   }
 
   .webapp1 {
-    margin-top: 3vw;
-    padding-left: 0.5vw;
-    padding-right: 0.5vw;
-    padding-top: 0.2vw;
-    padding-bottom: 0.2vw;
+    display: block;
+    font-size: 5vw;
+    padding: 1.5vw 1.8vw;
+    float: right;
     border-radius: 30px;
     border: 3px solid #333;
     background-color: #333;
-    text-align: right;
     text-decoration: none;
-    font-size: 1.4vw;
     color: #fff;
     font-family: "Josefin Sans";
     font-weight: 500;
+    margin-top: 3%;
+  }
+
+  .learn2 {
+    display: inline-block;
+    margin-left: 20%;
+    font-family: "RadioGrotesk Regular";
+    text-decoration: none;
+    color: #fff;
+    background-color: #2fa4ff;
+    border-radius: 10px;
+    padding: 1.5vw 1.8vw;
+    font-size: 5.5vw;
+    margin-top: 5vw;
+  }
+
+  .savings-header {
+    margin-top: 3%;
+    font-size: 17vw;
+  }
+
+  .savings-content {
+    margin: 0;
+  }
+
+  .earn-18 {
+    font-size: 9vw;
+    margin-left: 2%;
+  }
+
+  .earn-body {
+    font-size: 6vw;
+    margin-top: 60%;
+  }
+
+  .payment-img {
+    margin-top: -90%;
+    padding-left: -50%;
+    width: 90%;
+  }
+
+  .savings-header {
+    margin-top: 5%;
+    font-size: 17vw;
+  }
+
+  .savings-content {
+    margin: 0;
+  }
+
+  .earn-18 {
+    font-size: 9vw;
+    margin-left: 2%;
+  }
+
+  .earn-body {
+    font-size: 6vw;
+    margin-top: 70%;
+  }
+
+  .payment-img {
+    margin-top: -100%;
+    padding-left: -50%;
+    width: 95%;
+  }
+
+  .global-header {
+    margin-top: 5%;
+    font-size: 17vw;
+  }
+
+  .single-18 {
+    font-size: 10vw;
+    margin-left: 10%;
+    margin-top: -2%;
+  }
+
+  .single-body1 {
+    display: inline-block;
+    font-size: 6vw;
+    margin-top: 60%;
+    font-family: "RadioGrotesk Regular";
+    color: #808080;
+    text-transform: capitalize;
+  }
+
+  .single-body {
+    display: none;
+  }
+
+  .global-img {
+    margin-top: -110%;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .loan-header {
+    margin-top: 5%;
+    font-size: 17vw;
+  }
+
+  .loan-18 {
+    font-size: 9.5vw;
+    margin-top: -2%;
+    margin-left: 0%;
+  }
+
+  .loan-body {
+    display: none;
+  }
+
+  .loan-body1 {
+    display: inline-block;
+    font-size: 6vw;
+    margin-top: 60%;
+    font-family: "RadioGrotesk Regular";
+    color: #808080;
+    text-transform: capitalize;
+  }
+
+  .bull {
+    margin-top: -120%;
+    margin-right: 10%;
+    width: 80%;
+  }
+
+  .tools-header {
+    margin-top: 5%;
+    font-size: 17vw;
+  }
+
+  .tools-18 {
+    font-size: 10.5vw;
+    margin-top: -2%;
+    margin-left: 9.5%;
+  }
+
+  .tools-body {
+    display: none;
+  }
+
+  .tools-body1 {
+    display: inline-block;
+    font-size: 5.4vw;
+    margin-top: 60%;
+    margin-left: 1%;
+    font-family: "RadioGrotesk Regular";
+    color: #808080;
+    text-transform: capitalize;
+  }
+
+  .stock {
+    margin-top: -120%;
+    width: 75%;
+  }
+
+  .security-head {
+    margin-left: 8%;
+  }
+
+  .security-header {
+    font-size: 12vw;
+  }
+
+  .blue_ {
+    font-size: 12vw;
+  }
+
+  .explore {
+    font-size: 4vw;
+    margin-left: 5%;
+  }
+
+  .key__section {
+    width: 100%;
+    margin: 0;
+  }
+
+  .one {
+    width: 100%;
+  }
+
+  .left__key {
+    width: 98%;
+    height: 50vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-shadow: 3px 3px 10px rgb(189, 187, 187);
+  }
+
+  .left__key1 {
+    width: 98%;
+    height: 50vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-shadow: 3px 3px 10px rgb(189, 187, 187);
+    margin-top: 5%;
+  }
+
+  .blue__side {
+    height: 110%;
+    overflow: hidden;
+  }
+
+  .blue__side1 {
+    height: 110%;
+    overflow: hidden;
+  }
+
+  .blue__sid {
+    margin: 0;
+    padding: 4.5rem 0.3rem;
+  }
+
+  .enabled {
+    font-size: 4.5vw;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 2.5vw;
+    letter-spacing: 0;
+  }
+
+  .enabled2 {
+    font-size: 4.5vw;
+    /* font-family: 'Inter', sans-serif; */
+    /* font-weight: lighter; */
+    text-align: left;
+    color: rgb(158, 153, 153);
+    padding-left: 2.5vw;
+  }
+
+  .img6 {
+    display: none;
+  }
+
+  .sub {
+    background-color: transparent;
+    width: 100%;
+    overflow-x: visible;
+    overflow-y: hidden;
+    height: 100%;
+  }
+
+  .purple_ {
+    font-size: 10vw;
+    margin: 0;
+  }
+
+  .mobile {
+    display: inline-block;
+    margin-top: -12%;
+    margin-left: -21%;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .explore {
+    display: none;
+  }
+
+  .explore1 {
+    display: inline-block;
+    color: rgb(188, 184, 184);
+    margin-left: 4%;
+    font-weight: 300;
+    font-size: 5.5vw;
+    font-family: "Roboto";
+  }
+
+  .mobile1 {
+    display: inline-block;
+  }
+
+  .keys {
+    height: 100%;
+    width: 100%;
+  }
+
+  .enabled3 {
+    font-size: 7vw;
+  }
+
+  .enabled4 {
+    height: 1vw;
+    width: 50vw;
+    margin-bottom: 40vw;
+    margin-left: 5%;
+  }
+
+  .enabled5 {
+    height: 1vw;
+    width: 30vw;
+    margin-left: 5%;
+    margin-bottom: 40vw;
+  }
+
+  .enabled6 {
+    height: 1vw;
+    width: 60vw;
+    margin-bottom: 40vw;
+    margin-left: 5%;
+  }
+
+  .enabled7 {
+    height: 1vw;
+    width: 55vw;
+    margin-bottom: 40vw;
+    margin-left: 5%;
+  }
+
+  .support3 {
+    color: rgb(188, 184, 184);
+    text-align: left;
+    margin-left: 5%;
+    font-family: "Inter", sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 5vw;
+    box-shadow: 1vw 1vw 2vw rgb(188 184 184);
+    height: 25vw;
+    width: 80vw;
+    border-radius: 10px;
+    margin-bottom: 18vw;
+  }
+
+  .first {
+    margin-top: -200%;
+  }
+
+  .about-head {
+    font-size: 15vw;
+  }
+
+  .video {
+    width: 100%;
+    height: 40vh;
+    margin-left: 0%;
+  }
+
+  .box {
+    margin-top: 5%;
+  }
+
+  .block {
+    font-size: 5vw;
+  }
+
+  .whatxade {
+    width: 90%;
+    height: 70vh;
+    margin-left: 5%;
+    border-radius: 20px;
+    background-color: rgb(70, 73, 75);
+    font-family: "RadioGrotesk Regular";
+  }
+
+  .whatxade-head {
+    font-size: 7vw;
+    margin-left: 12%;
+  }
+
+  .meetxade {
+    margin-top: 10%;
+    width: 90%;
+    height: 70vh;
+    margin-right: 5%;
+    border-radius: 20px;
+    font-family: "RadioGrotesk Regular";
+  }
+
+  .meetxade-head {
+    font-size: 7vw;
+  }
+
+  .break {
+    display: none;
+  }
+
+  .tldr {
+    font-size: 5vw;
+  }
+
+  .read {
+    margin-left: 37%;
+    font-family: "RadioGrotesk Regular";
+    color: #fff;
+    font-size: 5vw;
   }
 }
+/*
+      <div class="keys">
+        <div class="sub">
+          <p class="enabled3">Dedicated support</p>
+          <p class="enabled4"></p>
+          <p class="enabled3">Custom API</p>
+          <p class="enabled5"></p>
+          <p class="enabled3">Multiaccount login</p>
+          <p class="enabled6"></p>
+          <p class="enabled3">Payment processors</p>
+          <p class="enabled7"></p>
+          <div class="main__support">
+            <p class="support2">
+              Chat support, call support and dedicated concierge service are
+              available 24/7 for all needs
+            </p>
+            <p class="support2">
+              Customized for the business needs with your inputs optimized by
+              our advanced AI
+            </p>
+            <p class="support2">
+              Get a multiaccount subscription with personal cards and multiple
+              useful features
+            </p>
+            <p class="support2">
+              The lowest fees and instant settlements for more than 40
+              currencies and crypto
+            </p>
+          </div>
+        </div>
+      </div>
+*/
