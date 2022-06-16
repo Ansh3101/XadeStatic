@@ -55,7 +55,7 @@ body {
 }
 
 body {
-  background: linear-gradient(to-bottom, #fff, #000);
+  background: linear-gradient(#fff, #000);
 }
 
 .navbar {
@@ -963,7 +963,6 @@ nav {
   * {
     clear: both;
     overflow-wrap: normal;
-    overflow-x: hidden;
   }
 
   .landing {
@@ -974,7 +973,7 @@ nav {
     width: 150%;
     height: 100%;
     margin-left: 0;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   .header h1 {
@@ -1057,6 +1056,35 @@ nav {
     padding: 1.5vw 1.8vw;
     font-size: 5.5vw;
     margin-top: 5vw;
+  }
+
+  .savings {
+    overflow: hidden;
+    background: transparent;
+  }
+  .global {
+    overflow: hidden;
+    background: transparent;
+  }
+  .tools {
+    overflow: hidden;
+    background: transparent;
+  }
+  .loan {
+    overflow: hidden;
+    background: transparent;
+  }
+  .secure {
+    overflow: hidden;
+    background: transparent;
+  }
+  .security {
+    overflow: hidden;
+    background: transparent;
+  }
+  .about {
+    overflow: hidden;
+    background: transparent;
   }
 
   .savings-header {
@@ -1272,7 +1300,7 @@ nav {
     /* font-family: 'Inter', sans-serif; */
     /* font-weight: lighter; */
     text-align: left;
-    color: rgb(158, 153, 153);
+    color: #fff;
     padding-left: 2.5vw;
   }
 
@@ -1367,7 +1395,6 @@ nav {
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 5vw;
-    box-shadow: 1vw 1vw 2vw rgb(188 184 184);
     height: 25vw;
     width: 80vw;
     border-radius: 10px;
