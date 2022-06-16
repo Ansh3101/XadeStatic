@@ -835,7 +835,7 @@ hr.line {
   height: 80vh;
   margin-left: 15%;
   border-radius: 20px;
-  background-color: #ffe100;
+  background-color: rgb(70, 73, 75);
   font-family: "RadioGrotesk Regular";
 }
 
