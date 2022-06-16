@@ -673,6 +673,7 @@ hr.line {
   border-radius: 20px;
   margin-bottom: 2vw;
   display: flex;
+  overflow-y: hidden;
 }
 
 .left__key1 {
@@ -961,7 +962,7 @@ nav {
 @media (max-width: 768px) {
   * {
     clear: both;
-    overflow-wrap: hidden;
+    overflow-wrap: normal;
     overflow-x: hidden;
   }
 
@@ -1228,6 +1229,7 @@ nav {
     width: 98%;
     height: 50vw;
     overflow-x: hidden;
+    overflow: hidden;
     overflow-y: hidden;
     box-shadow: 3px 3px 10px rgb(189, 187, 187);
   }
@@ -1369,16 +1371,22 @@ nav {
     height: 25vw;
     width: 80vw;
     border-radius: 10px;
-    margin-bottom: 6rem;
+    margin-bottom: 25%;
   }
 
   .first {
-    margin-top: -49.5rem;
+    margin-top: -220%;
   }
 
   .about-head {
     margin-top: 40%;
     font-size: 15vw;
+  }
+
+  .security {
+    height: 150vh;
+    overflow: hidden;
+    background: transparent;
   }
 
   .video {
@@ -1438,11 +1446,12 @@ nav {
   }
 
   .secure {
-    height: 150vh;
+    height: 170vh;
   }
 
   .about {
     height: 230vh;
+    background: transparent;
   }
 
   hr.line {
