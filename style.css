@@ -55,7 +55,7 @@ body {
 }
 
 body {
-  background: linear-gradient(#fff, #000);
+  background: linear-gradient(to-bottom, #fff, #000);
 }
 
 .navbar {
@@ -835,7 +835,7 @@ hr.line {
   height: 80vh;
   margin-left: 15%;
   border-radius: 20px;
-  background-color: rgb(70, 73, 75);
+  background-color: #ffe100;
   font-family: "RadioGrotesk Regular";
 }
 
@@ -959,11 +959,40 @@ nav {
   display: none;
 }
 
+.savings {
+  overflow: hidden;
+  background: ghostwhite;
+}
+.global {
+  overflow: hidden;
+  background: ghostwhite;
+}
+.tools {
+  overflow: hidden;
+  background: ghostwhite;
+}
+.loan {
+  overflow: hidden;
+  background: ghostwhite;
+}
+.secure {
+  overflow: hidden;
+  background: ghostwhite;
+}
+.security {
+  overflow: hidden;
+  background: ghostwhite;
+}
+.about {
+  overflow: hidden;
+  background: ghostwhite;
+}
+
 @media (max-width: 768px) {
   * {
     clear: both;
     overflow-wrap: normal;
-    letter-spacing: 0.01em;
+    overflow-x: hidden;
   }
 
   .landing {
@@ -980,9 +1009,8 @@ nav {
   .header h1 {
     margin: 0;
     margin-top: 5%;
-    margin-left: 2%;
-    text-align: left;
     font-size: 15vw;
+    letter-spacing: 0.001em;
   }
 
   .rw-words-1 span {
@@ -1057,35 +1085,6 @@ nav {
     padding: 1.5vw 1.8vw;
     font-size: 5.5vw;
     margin-top: 5vw;
-  }
-
-  .savings {
-    overflow: hidden;
-    background: transparent;
-  }
-  .global {
-    overflow: hidden;
-    background: transparent;
-  }
-  .tools {
-    overflow: hidden;
-    background: transparent;
-  }
-  .loan {
-    overflow: hidden;
-    background: transparent;
-  }
-  .secure {
-    overflow: hidden;
-    background: transparent;
-  }
-  .security {
-    overflow: hidden;
-    background: transparent;
-  }
-  .about {
-    overflow: hidden;
-    background: transparent;
   }
 
   .savings-header {
@@ -1301,7 +1300,7 @@ nav {
     /* font-family: 'Inter', sans-serif; */
     /* font-weight: lighter; */
     text-align: left;
-    color: #fff;
+    color: rgb(158, 153, 153);
     padding-left: 2.5vw;
   }
 
@@ -1387,7 +1386,7 @@ nav {
   }
 
   .support3 {
-    color: #fff;
+    color: rgb(188, 184, 184);
     text-align: left;
     margin-left: 5%;
     font-family: "Inter", sans-serif;
@@ -1396,6 +1395,7 @@ nav {
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 5vw;
+    box-shadow: 1vw 1vw 2vw rgb(188 184 184);
     height: 25vw;
     width: 80vw;
     border-radius: 10px;
@@ -1436,7 +1436,6 @@ nav {
     height: 70vh;
     margin-left: 5%;
     border-radius: 20px;
-    background-color: rgb(70, 73, 75);
     font-family: "RadioGrotesk Regular";
   }
 
@@ -1479,7 +1478,7 @@ nav {
 
   .about {
     height: 230vh;
-    background: transparent;
+    background: ghostwhite;
   }
 
   hr.line {
