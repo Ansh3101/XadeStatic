@@ -55,7 +55,7 @@ body {
 }
 
 body {
-  background-color: #fff;
+  background: linear-gradient(to-bottom, #fff, #000);
 }
 
 .navbar {
@@ -134,9 +134,9 @@ hr.line {
 }
 
 .header h1 {
-  text-align: center;
   margin-top: -65%;
-  margin-left: -5%;
+  margin-left: 5%;
+  width: 100%;
 }
 
 .animate {
@@ -912,6 +912,7 @@ hr.line {
 
 .read {
   margin-left: 37%;
+  margin-top: -10%;
   font-family: "RadioGrotesk Regular";
   color: #fff;
   font-size: 1.5vw;
