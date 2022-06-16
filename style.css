@@ -963,6 +963,7 @@ nav {
   * {
     clear: both;
     overflow-wrap: normal;
+    letter-spacing: 0.01em;
   }
 
   .landing {
@@ -1386,7 +1387,7 @@ nav {
   }
 
   .support3 {
-    color: rgb(188, 184, 184);
+    color: #fff;
     text-align: left;
     margin-left: 5%;
     font-family: "Inter", sans-serif;
