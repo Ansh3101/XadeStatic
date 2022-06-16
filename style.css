@@ -960,6 +960,7 @@ nav {
 @media (max-width: 768px) {
   * {
     clear: both;
+    overflow-wrap: hidden;
   }
 
   .landing {
@@ -1327,7 +1328,7 @@ nav {
   .enabled4 {
     height: 1vw;
     width: 50vw;
-    margin-bottom: 40vw;
+    margin-bottom: 45vw;
     margin-left: 5%;
   }
 
@@ -1335,20 +1336,20 @@ nav {
     height: 1vw;
     width: 30vw;
     margin-left: 5%;
-    margin-bottom: 40vw;
+    margin-bottom: 45vw;
   }
 
   .enabled6 {
     height: 1vw;
     width: 60vw;
-    margin-bottom: 40vw;
+    margin-bottom: 45vw;
     margin-left: 5%;
   }
 
   .enabled7 {
     height: 1vw;
     width: 55vw;
-    margin-bottom: 40vw;
+    margin-bottom: 45vw;
     margin-left: 5%;
   }
 
@@ -1366,14 +1367,15 @@ nav {
     height: 25vw;
     width: 80vw;
     border-radius: 10px;
-    margin-bottom: 18vw;
+    margin-bottom: 6rem;
   }
 
   .first {
-    margin-top: -200%;
+    margin-top: -49.5rem;
   }
 
   .about-head {
+    margin-top: 40%;
     font-size: 15vw;
   }
 
