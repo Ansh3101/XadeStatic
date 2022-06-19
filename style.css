@@ -54,10 +54,6 @@ body {
   box-sizing: border-box !important;
 }
 
-body {
-  background: linear-gradient(to-bottom, #fff, #000);
-}
-
 .navbar {
   padding: 0;
   width: 100%;
@@ -816,7 +812,7 @@ hr.line {
 }
 
 .about {
-  height: 185vh;
+  height: 205vh;
 }
 
 .about-head {
@@ -919,6 +915,157 @@ hr.line {
   font-size: 1.5vw;
 }
 
+.neobank {
+  margin-top: 5%;
+  height: 60vh;
+}
+
+.worldsfirst {
+  font-family: "Inter";
+  font-size: 5vw;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 700;
+  /*
+  background: linear-gradient(
+        90deg,
+        rgb(255, 183, 83) 0%,
+        rgb(255, 173, 175) 85%,
+        rgba(217, 141, 156, 0.7) 100%
+      )
+      100% center / cover,
+    url(https://cdn.robinhood.com/assets/generated_assets/brand/_next/static/images/noise__d63eaf5….svg)
+      rgb(240, 170, 165);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  */
+}
+
+.fuckuharshal {
+  color: red;
+  background-clip: text;
+  -webkit-text-fill-color: red;
+}
+
+.worldsfirst-body {
+  width: 80%;
+  margin-left: 10%;
+  font-size: 3vw;
+  text-transform: capitalize;
+  color: rgb(98, 98, 98);
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: #000;
+  height: auto;
+  width: 100vw;
+
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+
+  border-radius: 50%;
+}
+.socials a i {
+  font-size: 1.1rem;
+  width: 20px;
+
+  transition: color 0.4s ease;
+}
+.socials a:hover i {
+  color: blue;
+}
+
+.footer-bottom {
+  background: #000;
+  width: 100vw;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 12px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom p a {
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+.footer-menu {
+  float: right;
+}
+.footer-menu ul {
+  display: flex;
+}
+.footer-menu ul li {
+  padding-right: 10px;
+  display: block;
+}
+.footer-menu ul li a {
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover {
+  color: #27bcda;
+}
+
+@media (max-width: 500px) {
+  .footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
 nav {
   display: none;
 }
@@ -961,31 +1108,31 @@ nav {
 
 .savings {
   overflow: hidden;
-  background: ghostwhite;
+  background: transparent;
 }
 .global {
   overflow: hidden;
-  background: ghostwhite;
+  background: transparent;
 }
 .tools {
   overflow: hidden;
-  background: ghostwhite;
+  background: transparent;
 }
 .loan {
   overflow: hidden;
-  background: ghostwhite;
+  background: transparent;
 }
 .secure {
   overflow: hidden;
-  background: ghostwhite;
+  background: transparent;
 }
 .security {
   overflow: hidden;
-  background: ghostwhite;
+  background: transparent;
 }
 .about {
   overflow: hidden;
-  background: ghostwhite;
+  background: transparent;
 }
 
 @media (max-width: 768px) {
