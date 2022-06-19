@@ -1647,6 +1647,13 @@ nav {
     width: 90%;
     margin-left: 5%;
   }
+
+  footer {
+    margin-top: 10%;
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 }
 /*
       <div class="keys">
@@ -1680,6 +1687,10 @@ nav {
         </div>
       </div>
 */
+
+footer {
+  margin-top: 10%;
+}
 
 .text {
   color: white;
@@ -1791,12 +1802,31 @@ nav {
 }
 
 .rounded-social-buttons .social-button.medium {
-  background: #111;
+  background: #222;
 }
 
 .rounded-social-buttons .social-button.medium:hover,
 .rounded-social-buttons .social-button.medium:focus {
-  color: #111;
+  color: #222;
   background: #fefefe;
-  border-color: #111;
+  border-color: #222;
+}
+
+.rounded-social-buttons .social-button.phone {
+  background: #333;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.rounded-social-buttons .social-button.medium:hover,
+.rounded-social-buttons .social-button.medium:focus {
+  color: #333;
+  background: #fefefe;
+  border-color: #333;
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
