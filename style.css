@@ -812,7 +812,7 @@ hr.line {
 }
 
 .about {
-  height: 205vh;
+  height: 220vh;
 }
 
 .about-head {
@@ -886,9 +886,9 @@ hr.line {
 }
 
 .video {
-  height: 60vh;
-  width: 60%;
-  margin-left: 20%;
+  height: 80vh;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .block {
@@ -1648,11 +1648,8 @@ nav {
     margin-left: 5%;
   }
 
-  footer {
-    margin-top: 10%;
-    width: 70%;
-    padding-left: 15%;
-    padding-right: 15%;
+  .rounded-social-buttons .social-button.phone {
+    display: none;
   }
 }
 /*
@@ -1687,10 +1684,6 @@ nav {
         </div>
       </div>
 */
-
-footer {
-  margin-top: 10%;
-}
 
 .text {
   color: white;
@@ -1802,31 +1795,23 @@ footer {
 }
 
 .rounded-social-buttons .social-button.medium {
-  background: #222;
+  background: #111;
 }
 
 .rounded-social-buttons .social-button.medium:hover,
 .rounded-social-buttons .social-button.medium:focus {
-  color: #222;
+  color: #111;
   background: #fefefe;
-  border-color: #222;
+  border-color: #111;
 }
 
 .rounded-social-buttons .social-button.phone {
-  background: #333;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+  background: #111;
 }
 
-.rounded-social-buttons .social-button.medium:hover,
-.rounded-social-buttons .social-button.medium:focus {
-  color: #333;
+.rounded-social-buttons .social-button.phone:hover,
+.rounded-social-buttons .social-button.phone:focus {
+  color: #111;
   background: #fefefe;
-  border-color: #333;
-  -webkit-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  transform: rotate(360deg);
+  border-color: #111;
 }
