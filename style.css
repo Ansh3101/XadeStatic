@@ -52,7 +52,6 @@ body {
   width: auto !important;
   overflow-x: hidden !important;
   box-sizing: border-box !important;
-  background: transparent;
 }
 
 .navbar {
@@ -452,7 +451,7 @@ hr.line {
 
 .payment-img {
   float: right;
-  margin-top: -40%;
+  margin-top: -25%;
   margin-left: 5%;
   width: 45%;
 }
@@ -569,7 +568,7 @@ hr.line {
   margin-top: -5.5%;
   width: 100%;
   height: 105vh;
-  background: linear-gradient(#fff, rgb(235, 235, 235));
+  background: transparent;
 }
 
 .tools-header {
@@ -918,19 +917,16 @@ hr.line {
 }
 
 .neobank {
-  padding-top: 5%;
-  padding-bottom: 10%;
+  margin-top: 5%;
   height: 60vh;
-  background: linear-gradient(#fff, rgb(235, 235, 235));
 }
 
 .worldsfirst {
-  font-family: "Josefin Sans";
+  font-family: "Roboto";
   font-size: 5vw;
   text-transform: capitalize;
   text-align: center;
-  letter-spacing: -0.01em;
-  font-weight: 700;
+  font-weight: 600;
   /*
   background: linear-gradient(
         90deg,
@@ -960,7 +956,7 @@ hr.line {
   text-transform: capitalize;
   color: rgb(98, 98, 98);
   text-align: center;
-  font-family: "RadioGrotesk Regular";
+  font-family: "Roboto";
   font-weight: 500;
 }
 
@@ -1114,47 +1110,30 @@ nav {
 .savings {
   overflow: hidden;
   background: transparent;
-  height: 100%;
 }
 .global {
   overflow: hidden;
   background: transparent;
-  height: 100%;
-  background: linear-gradient(rgb(182, 182, 182), rgb(235, 235, 235));
 }
 .tools {
   overflow: hidden;
-  height: 100%;
+  background: transparent;
 }
 .loan {
   overflow: hidden;
-  background: linear-gradient(rgb(235, 235, 235), #fff);
-  height: 100%;
+  background: transparent;
 }
 .secure {
   overflow: hidden;
   background: transparent;
-  height: 100%;
 }
 .security {
   overflow: hidden;
-  background: linear-gradient(rgb(235, 235, 235), #fff);
-  height: 100%;
-  margin-top: 0%;
-  padding-top: 5%;
-}
-.secure {
-  background: linear-gradient(#fff, rgb(220, 220, 220));
+  background: transparent;
 }
 .about {
   overflow: hidden;
-  background: linear-gradient(rgb(220, 220, 220), rgb(150, 150, 150));
-  height: 100%;
-}
-
-.save {
-  background: linear-gradient(rgb(235, 235, 235), rgb(182, 182, 182));
-  padding-bottom: 15%;
+  background: transparent;
 }
 
 @media (max-width: 768px) {
@@ -1165,7 +1144,7 @@ nav {
   }
 
   .landing {
-    height: 100%;
+    height: 90vh;
   }
 
   .header {
@@ -1301,7 +1280,7 @@ nav {
   }
 
   .payment-img {
-    margin-top: -110%;
+    margin-top: -100%;
     padding-left: -50%;
     width: 95%;
   }
@@ -1583,7 +1562,7 @@ nav {
   .security {
     height: 150vh;
     overflow: hidden;
-    background: linear-gradient(#fff, rgb(220, 220, 220));
+    background: transparent;
   }
 
   .video {
@@ -1643,11 +1622,11 @@ nav {
 
   .secure {
     height: 170vh;
-    background: rgb(220, 220, 220);
   }
 
   .about {
     height: 230vh;
+    background: ghostwhite;
   }
 
   hr.line {
@@ -1656,44 +1635,22 @@ nav {
   }
 
   .neobank {
-    margin-top: 30%;
-    height: 60vh;
-    background: transparent;
+    margin-top: -20%;
   }
 
   .worldsfirst {
     font-size: 15vw;
-    font-family: "Josefin Sans";
-    font-weight: 700;
-    letter-spacing: -0.01em;
   }
 
   .worldsfirst-body {
     font-size: 5vw;
     text-align: left;
-    width: 95%;
-    margin-left: 2.5%;
-    font-family: "RadioGrotesk Regular";
+    width: 90%;
+    margin-left: 5%;
   }
 
   .rounded-social-buttons .social-button.phone {
     display: none;
-  }
-
-  .save {
-    background: linear-gradient(#fff, rgb(235, 235, 235));
-  }
-
-  .global {
-    background: linear-gradient(rgb(235, 235, 235), rgb(182, 182, 182));
-  }
-
-  .loan {
-    background: linear-gradient(rgb(182, 182, 182), rgb(235, 235, 235));
-  }
-
-  .tools {
-    background: linear-gradient(rgb(235, 235, 235), #fff);
   }
 }
 /*
